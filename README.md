@@ -26,3 +26,52 @@ void main() {
 }
 
 ```
+
+<h1 align="center"> Status Bar & Device Orientation </h1>
+
+# Status Bar in AppBar
+```Dart
+appBar: AppBar(
+        systemOverlayStyle: SystemUiOverlayStyle(
+          statusBarColor: Colors.red,
+        ),
+      ),
+```
+
+# Status Bar in Global Declaration
+```Dart
+ SystemChrome.setSystemUIOverlayStyle(
+      SystemUiOverlayStyle(
+        statusBarColor: Colors.red,
+
+      )
+    );
+```
+
+#  Device Orientation
+```Dart
+SystemChrome.setPreferredOrientations([
+      DeviceOrientation.landscapeLeft,
+      DeviceOrientation.landscapeRight,
+      DeviceOrientation.portraitUp,
+      DeviceOrientation.portraitDown
+    ]);
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
