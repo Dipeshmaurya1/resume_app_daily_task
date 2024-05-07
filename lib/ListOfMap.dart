@@ -3,16 +3,16 @@ import 'dart:io';
 void main()
 {
   Map UserInfo={
-    'First Name': 'Raj',
-    'Last Name': 'Malhotra',
-    'Age': 25,
-    'Address': 'P.N 30, Ramdev Bunglows',
-    'City': 'Surat',
-    'State': 'Gujarat',
-    'Qualification': 'Cyber Security',
-    'Contact':'9898548547',
-    'E-mail':'malhotraraj007@gmail.com',
-    'Gender': 'Male'
+    'First Name': '',
+    'Last Name': '',
+    'Age': '',
+    'Address': '',
+    'City': '',
+    'State': '',
+    'Qualification': '',
+    'Contact':'',
+    'E-mail':'',
+    'Gender': ''
   };
   stdout.write('Enter Your First Name:');
   UserInfo.update('First Name', (value) => stdin.readLineSync()!);
