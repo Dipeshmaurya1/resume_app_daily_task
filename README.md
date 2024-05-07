@@ -1,16 +1,28 @@
-# resume_app_daily_task
 
-A new Flutter project.
+# What is  List & Map ?
+- A List is an ordered collection of objects, where each object can occur multiple times.
+- A Map is a collection of key-value pairs where each key is unique. In Dart, maps are represented by the Map class.
 
-## Getting Started
+# Generics
 
-This project is a starting point for a Flutter application.
+- Similar to Java, Dart also supports generics. You can specify the type of elements that a List can hold.
 
-A few resources to get you started if this is your first Flutter project:
+# Predefined methods
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- `add(E element)`: Adds an element to the end of the List.
+- `remove(Object element)`: Removes the first occurrence of the specified element from the List.
+- `elementAt(int index)`: Retrieves the element at the specified index.
+- `length`: Returns the number of elements in the List.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+# Example
+
+```Dart
+void main() {
+  List<int> numbers = [1, 2, 3];
+  numbers.add(4);
+  numbers.remove(2);
+  print(numbers.elementAt(1)); // Output: 3
+  print(numbers.length); // Output: 3
+}
+
+```
