@@ -40,7 +40,7 @@ class _GmailDrawerState extends State<GmailDrawer> {
                   ),
 
                   child: ListTile(
-                    leading: Icon(Icons.all_inbox,size: 25,color: Color(0xffDC9692)),
+                    leading: Icon(Icons.inbox,size: 25,color: Color(0xffDC9692)),
                     title: Text('Inbox',style: TextStyle(fontSize: 20,color: Color(0xffDC9692)),),
                   ),
                 ),
