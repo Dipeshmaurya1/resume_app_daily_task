@@ -1,7 +1,30 @@
 
 # What is  List & Map ?
+<h3> List </h3>
 - A List is an ordered collection of objects, where each object can occur multiple times.
+<h2> Example </h2>
+
+```Dart
+void main() {
+  List<int> numbers = [1, 2, 3, 4, 5];
+  List<int> doubledNumbers = numbers.map((int number) {
+    return number * 2;
+  }).toList();
+
+  print(doubledNumbers); // Output: [2, 4, 6, 8, 10]
+}
+
+```
+<h3> Map </h3>
 - A Map is a collection of key-value pairs where each key is unique. In Dart, maps are represented by the Map class.
+<h2> Example </h2>
+
+```Dart
+Map Info= {
+'key': value,
+}
+```
+
 
 # Generics
 
