@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-class HomeScreen extends StatefulWidget {
-  const HomeScreen({super.key});
+class StatusBar extends StatefulWidget {
+  const StatusBar({super.key});
 
   @override
-  State<HomeScreen> createState() => _HomeScreenState();
+  State<StatusBar> createState() => _StatusBarState();
 }
 
-class _HomeScreenState extends State<HomeScreen> {
+class _StatusBarState extends State<StatusBar> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
