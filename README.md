@@ -80,6 +80,15 @@ SystemChrome.setPreferredOrientations([
       DeviceOrientation.portraitDown
     ]);
 ```
+<h2> G-mail Drawer </h2>
+<p>
+  <img src='https://github.com/Dipeshmaurya1/resume_app_daily_task/assets/149373441/52636450-f28d-426a-837c-27757d336e44' height=35%, width=22%>
+</p>
+<p>
+  <video src='https://github.com/Dipeshmaurya1/resume_app_daily_task/assets/149373441/35bd291b-4fac-4d56-ac22-3a882e073471' height=35%, width=22%>
+</p>
+
+
 
 
 
