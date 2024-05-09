@@ -80,13 +80,27 @@ SystemChrome.setPreferredOrientations([
       DeviceOrientation.portraitDown
     ]);
 ```
-<h2> G-mail Drawer </h2>
+<h1 align = "center"> G-mail Drawer </h1>
 <p>
   <img src='https://github.com/Dipeshmaurya1/resume_app_daily_task/assets/149373441/52636450-f28d-426a-837c-27757d336e44' height=35%, width=22%>
 </p>
 <p>
   <video src='https://github.com/Dipeshmaurya1/resume_app_daily_task/assets/149373441/35bd291b-4fac-4d56-ac22-3a882e073471' height=35%, width=22%>
 </p>
+
+<h1 align = "center"> Login Pages </h1>
+<p>
+  <img src='https://github.com/Dipeshmaurya1/resume_app_daily_task/assets/149373441/7b23f51c-69de-40cf-928c-7357ff760f3b' height=35%, width=22%>
+</p>
+<p>
+  <img src='https://github.com/Dipeshmaurya1/resume_app_daily_task/assets/149373441/724119f5-5f23-46ba-afb1-7b131274d4ef' height=35%, width=22%>
+</p>
+<p>
+  <video src='https://github.com/Dipeshmaurya1/resume_app_daily_task/assets/149373441/885121c0-d6a9-4d4d-8616-e2ec2845bb0f' height=35%, width=22%>
+</p>
+
+
+
 
 
 
