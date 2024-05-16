@@ -106,7 +106,7 @@ SystemChrome.setPreferredOrientations([
 <p>
   <video src='https://github.com/Dipeshmaurya1/resume_app_daily_task/assets/149373441/b4ed19ec-e261-42dc-be33-c3c07ad191c5' height=35%, width=22%>
 </p>
-<a  href="https://github.com/Dipeshmaurya1/resume_app_daily_task/tree/master/lib/Component/Home/ImagePickers">-> 📂 Go To Dart File 📂<-</a>
+<a  href="https://github.com/Dipeshmaurya1/resume_app_daily_task/tree/master/lib/Component/Home/ImagePicker">-> 📂 Go To Dart File 📂<-</a>
 
 
 
