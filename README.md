@@ -101,6 +101,13 @@ SystemChrome.setPreferredOrientations([
 </p>
 <a  href="https://github.com/Dipeshmaurya1/resume_app_daily_task/tree/master/lib/Component/Home/LoginPages">-> 📂 Go To Dart File 📂<-</a>
 
+<h1 align = "center"> Gmail and Password with Validation </h1>
+  <img src='https://github.com/Dipeshmaurya1/resume_app_daily_task/assets/149373441/5234723c-be11-42bb-9552-c44c9e91b458' height=35%, width=22%>
+  <img src='https://github.com/Dipeshmaurya1/resume_app_daily_task/assets/149373441/97bb8ff0-e98b-4d04-beb0-9e3a23d83a45' height=35%, width=22%>
+  <img src='https://github.com/Dipeshmaurya1/resume_app_daily_task/assets/149373441/bcf14518-f31c-4314-986b-a57cc7cae2fc' height=35%, width=22%>
+  <img src='https://github.com/Dipeshmaurya1/resume_app_daily_task/assets/149373441/8226e1cb-9f0b-4d78-9ce8-16dec4202a16' height=35%, width=22%>
+  
+  <a  href="https://github.com/Dipeshmaurya1/resume_app_daily_task/tree/master/lib/Component/Home/GmailLoginPage_withValidat">-> 📂 Go To Dart File 📂<-</a>
 
 <h1 align = "center"> Image Picker </h1>
 <p>
