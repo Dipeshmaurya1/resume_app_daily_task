@@ -30,9 +30,15 @@ class _InvoiceGeneratorState extends State<InvoiceGenerator> {
             ...List.generate(
               invoiceDetail.length,
               (index) => ListTile(
-                title: Text('${invoiceDetail[index].name}'),
-                subtitle: Text('${invoiceDetail[index].category}'),
-                trailing: Text('${invoiceDetail[index].price}'),
+                title: Text('${invoiceDetail[index].name}',style: TextStyle(
+                  fontSize: 30,
+                ),),
+                subtitle: Text('${invoiceDetail[index].category}',style: TextStyle(
+                  fontSize: 20,
+                ),),
+                trailing: Text('${invoiceDetail[index].price}',style: TextStyle(
+                  fontSize: 15,
+                ),),
               ),
             ),
           ],
@@ -43,9 +49,9 @@ class _InvoiceGeneratorState extends State<InvoiceGenerator> {
 }
 
 List<InvoiceModel> invoiceDetail = [
-  InvoiceModel(name: 'Dipesh', category: 'Animal', price: '0.0000000'),
-  InvoiceModel(name: 'Yash', category: 'Animal', price: '0.0000000'),
-  InvoiceModel(name: 'Mehul', category: 'Animal', price: '0.0000000'),
+  InvoiceModel(name: 'Lenovo', category: 'Laptop', price: '50000.00'),
+  InvoiceModel(name: 'POCO', category: 'Phone', price: '16000.00'),
+  InvoiceModel(name: 'CocaCola', category: 'Drink', price: '50.00'),
 ];
 
 class InvoiceModel {
@@ -66,9 +72,11 @@ Future<Uint8List> generatePdf() {
           (index) => pw.Column(
             children: [
               pw.Text(
-                  '${invoiceDetail[index].name}${invoiceDetail[index].category}${invoiceDetail[index].price}',
+                  '\n${invoiceDetail[index].name}         '
+                      '${invoiceDetail[index].category}         '
+                      '${invoiceDetail[index].price}           ',
                   style: pw.TextStyle(
-                    fontSize: 25,
+                    fontSize: 30,
                     color: PdfColors.black,
                   ))
 

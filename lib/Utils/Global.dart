@@ -1,10 +1,14 @@
 
 
+import 'dart:js';
+
 import 'package:flutter/material.dart';
 // import 'package:resume_app_daily_task/Component/Home/StatusBar.dart';
 
 import '../Component/Generate_pdf/Invoice_Generater.dart';
 import '../Component/Generate_pdf/PDF.dart';
+import '../Component/Home/GmailLoginPage_withValidation/gmailPage.dart';
+import '../Component/Home/GmailLoginPage_withValidation/passwordPage.dart';
 import '../Component/Home/Google/GmailScreen.dart';
 // import '../Component/Home/ID_Card_Registration_Form/Dynamic_Text_Field.dart';
 import '../Component/Home/ID_Card_Registration_Form/RegistrationFrom.dart';
@@ -22,7 +26,9 @@ class AppRoutes
     // '/':(context)=>GmailDrawer(),
     // '/':(context)=>EntryPage(),
     // '/login':(context)=>LoginPage(),
-    '/':(context)=>InvoiceGenerator(),
-    '/pdf':(context)=>PdfPage(),
+    // '/':(context)=>InvoiceGenerator(),
+    // '/pdf':(context)=>PdfPage(),
+    '/':(context)=> gmailValidationChrome(),
+    '/pass':(context)=> passWordScreen(),
   };
 }

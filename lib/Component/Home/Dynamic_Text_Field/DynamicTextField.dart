@@ -20,15 +20,13 @@ class _DynamicTextState extends State<DynamicText> {
           children: [
             ListTile(
               title: TextField(
-
                 controller: txtController,
                 decoration: const InputDecoration(
                   labelText: 'Skills',
                   focusedBorder: OutlineInputBorder(
                       borderSide: BorderSide(
-                        color: Colors.black,
-                      )
-                  ),
+                    color: Colors.black,
+                  )),
                   border: OutlineInputBorder(),
                 ),
               ),
@@ -38,7 +36,7 @@ class _DynamicTextState extends State<DynamicText> {
                   IconButton(
                     onPressed: () {
                       TextEditingController txtController =
-                      TextEditingController();
+                          TextEditingController();
                       setState(() {
                         txtControllerList.add(txtController);
                       });
@@ -53,7 +51,7 @@ class _DynamicTextState extends State<DynamicText> {
             ),
             ...List.generate(
               txtControllerList.length,
-                  (index) => ListTile(
+              (index) => ListTile(
                 title: TextField(
                   controller: txtControllerList[index],
                   decoration: const InputDecoration(
@@ -66,7 +64,7 @@ class _DynamicTextState extends State<DynamicText> {
                     IconButton(
                       onPressed: () {
                         TextEditingController txtController =
-                        TextEditingController();
+                            TextEditingController();
                         setState(() {
                           txtControllerList.add(txtController);
                         });
@@ -97,11 +95,14 @@ class _DynamicTextState extends State<DynamicText> {
       floatingActionButton: FloatingActionButton(
         onPressed: () {
           String skills = txtController.text;
-          for(int i=1; i<txtControllerList.length;i++)
-          {
+          for (int i = 1; i < txtControllerList.length; i++) {
             skills = skills + " " + txtControllerList[i].text;
           }
-          ScaffoldMessenger.of(context).showSnackBar(SnackBar(content: Text('${skills}'),),);
+          ScaffoldMessenger.of(context).showSnackBar(
+            SnackBar(
+              content: Text('${skills}'),
+            ),
+          );
         },
         child: Icon(Icons.slideshow_outlined),
       ),
